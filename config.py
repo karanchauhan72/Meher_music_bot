@@ -12,14 +12,14 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # ===============================================
 
-OWNER_ID = int(getenv("OWNER_ID", 7473021518))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "TheSigmaCoder")
+OWNER_ID = int(getenv("OWNER_ID", 5719281608)
+OWNER_USERNAME = getenv("OWNER_USERNAME", "satorugojo")
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # ===============================================
 
-BOT_USERNAME = getenv("BOT_USERNAME", "Sonali_Music_bot")
-BOT_NAME = getenv("BOT_NAME", "Sonali Music")
+BOT_USERNAME = getenv("BOT_USERNAME", "Meher_music_boy")
+BOT_NAME = getenv("BOT_NAME", "Meher music")
 
 # ===============================================
 
@@ -33,14 +33,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 # ===============================================
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TEAMPURVI/SONALI_MUSIC")
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", None)
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", None)
 GIT_TOKEN = getenv("GIT_TOKEN", None)  
 
 # ===============================================
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_BOTS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PITTU_SUPPORT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+k-Mk-vprk7swNDA9")
 
 # ===============================================
 
