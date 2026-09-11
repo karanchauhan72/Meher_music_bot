@@ -18,7 +18,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # ===============================================
 
-BOT_USERNAME = getenv("BOT_USERNAME", "Meher_music_boy")
+BOT_USERNAME = getenv("BOT_USERNAME", "Meher_music_bot")
 BOT_NAME = getenv("BOT_NAME", "Meher music")
 
 # ===============================================
