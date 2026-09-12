@@ -6,24 +6,24 @@ from pyrogram import filters
 load_dotenv()
 # ===============================================
 
-API_ID = int(getenv("API_ID", "30459788"))
-API_HASH = getenv("API_HASH", "01a05e81810b022dbd7c84d02b4258d5")
-BOT_TOKEN = getenv("BOT_TOKEN", "8983557694:AAEeEFgkdWTKbj5pl4e1e_UD68D-vFoncjM")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # ===============================================
 
-OWNER_ID = int(getenv("OWNER_ID", 5719281608)
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@MY_LIFE_IS_ALONE")
-LOGGER_ID = int(getenv("LOGGER_ID", "-1003811574093"))
+OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "")
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # ===============================================
 
-BOT_USERNAME = getenv("BOT_USERNAME", "@Meher_music_bot")
-BOT_NAME = getenv("BOT_NAME", "˹ᴍᴇʜᴇʀ ✘ ᴍᴜꜱɪᴄ˼™")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
+BOT_NAME = getenv("BOT_NAME", "")
 
 # ===============================================
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mehermusic369_db_user:mehermusic@cluster0.t7miuqv.mongodb.net/?appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # ===============================================
