@@ -6,15 +6,15 @@ from pyrogram import filters
 load_dotenv()
 # ===============================================
 
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+API_ID = int(getenv("API_ID", "30459788"))
+API_HASH = getenv("API_HASH", "01a05e81810b022dbd7c84d02b4258d5")
+BOT_TOKEN = getenv("BOT_TOKEN", "8983557694:AAEeEFgkdWTKbj5pl4e1e_UD68D-vFoncjM")
 
 # ===============================================
 
 OWNER_ID = int(getenv("OWNER_ID", 5719281608)
-OWNER_USERNAME = getenv("OWNER_USERNAME", "satorugojo")
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@MY_LIFE_IS_ALONE")
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003811574093"))
 
 # ===============================================
 
@@ -23,7 +23,7 @@ BOT_NAME = getenv("BOT_NAME", "˹ᴍᴇʜᴇʀ ✘ ᴍᴜꜱɪᴄ˼™")
 
 # ===============================================
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mehermusic369_db_user:mehermusic@cluster0.t7miuqv.mongodb.net/?appName=Cluster0")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # ===============================================
